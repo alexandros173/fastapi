@@ -1,4 +1,4 @@
-from sqlalchemy import select
+
 from typing import List, Annotated
 
 from fastapi import FastAPI, Path, HTTPException, Depends, Query
