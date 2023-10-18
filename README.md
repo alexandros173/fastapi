@@ -1,4 +1,4 @@
-# Python GraphQL server, built with Falcon and Graphene
+# FastAPI with SQLAlchemy and Postgres
 
 To install dependencies:
 ```
