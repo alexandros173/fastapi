@@ -20,10 +20,10 @@ To run:
 make start-app
 ```
 
-To check if it's running, simply:
+To check if it's running, simply go to:
 
 ```
-curl http://127.0.01:80/healthcheck
+curl http://localhost:8000/docs
 ```
 
 

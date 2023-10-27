@@ -68,7 +68,7 @@ target/
 
 
 # Environments
-.env
+.env_docker
 .venv
 env/
 venv/

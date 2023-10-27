@@ -16,4 +16,4 @@ services:
     depends_on:
       - db
     ports:
-      - 8008:80
+      - 8008:${PORT}
