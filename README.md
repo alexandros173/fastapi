@@ -13,21 +13,22 @@ You need to have PostgreSQL installed, with the following parameters:
 POSTGRES_PASSWORD=postgres
 POSTGRES_USER=postgres
 POSTGRES_DB=ms-airports
+POSTGRES_HOST='localhost'
 ```
+You will also need those parameters defined in an .env file
+
 
 To run:
 ```
 make start-app
 ```
 
-To check if it's running, simply:
+To check if it's running, simply go to the FastAPI default page:
 
 ```
-curl http://127.0.01:80/healthcheck
+http://127.0.01:8000/
 ```
 
-
-To call the GraphQL endpoints, use Postman. Check the collection inside the `postman` folder.
 
 
 To exit the virtual env, run `deactivate`.
