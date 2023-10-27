@@ -12,7 +12,7 @@ from model.schemas import AirportBase
 
 model.airport.Base.metadata.create_all(bind=engine)
 
-app = FastAPI()
+app = FastAPI(title='Airports API', description='An API for your Airport codes')
 
 
 def get_db():
