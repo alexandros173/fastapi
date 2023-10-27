@@ -29,6 +29,7 @@ To check if it's running, simply go to the FastAPI default page:
 http://127.0.01:8000/
 ```
 
+You can use the FastAPI default page to create new airport codes, delete them, etc. 
 
 
 To exit the virtual env, run `deactivate`.
